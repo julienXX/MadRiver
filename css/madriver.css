@@ -76,3 +76,10 @@ footer {
   position :relative;
   left: 155px;
 }
+
+#paypal_button {
+  position: relative;
+  margin-bottom: 150px;
+  top: 15px;
+  left: 285px;
+}
