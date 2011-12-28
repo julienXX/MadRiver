@@ -1,0 +1,74 @@
+header {
+  position: relative;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  position: relative;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main {
+  position: relative;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  height: 159px;
+  width: 832px;
+}
+
+#facebook {
+  height: 48px;
+  width: 294px;
+}
+
+#myspace {
+  height: 48px;
+  width: 232px;
+}
+
+#contact {
+  height: 48px;
+  width: 306px;
+}
+
+#buy {
+  height: 93px;
+  width: 551px;
+}
+
+#picture {
+  height: 697px;
+  width: 832px;
+}
+
+#clip {
+  position: absolute;
+  top: 482px;
+  left: 591px;
+  height: 42px;
+  width: 169px;
+}
+
+#mp3 {
+  position: absolute;
+  top: 173px;
+  left: 604px;
+  height: 104px;
+  width: 220px;
+}
+
+#paypal {
+  position: relative;
+  top: -25px;
+  height: 47px;
+  width: 141px;
+}
+
