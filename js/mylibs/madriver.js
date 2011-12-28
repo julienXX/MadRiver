@@ -9,3 +9,18 @@ $("a.iframe").click(function() {
   });
   return false;
 });
+
+$("#jquery_jplayer_1").jPlayer({
+  ready: function () {
+    $(this).jPlayer("setMedia", {
+      mp3: "audio/guaranteed.mp3"
+    });
+  },
+  swfPath: "js/libs/jQuery.jPlayer.2.1.0",
+  supplied: "mp3"
+});
+
+$("#play_mp3").click(function(e){
+  e.preventDefault();
+  $("#jquery_jplayer_1").jPlayer("play");
+});

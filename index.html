@@ -25,6 +25,7 @@
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/madriver.css">
+  <link rel="stylesheet" href="img/jplayer/jplayer.blue.monday.css">
   <link rel="stylesheet" href="img/fancybox/jquery.fancybox-1.3.4.css">
   <!-- end CSS-->
 
@@ -52,11 +53,52 @@
       <img id="picture" src="img/picture.png"></img>
       <a class="iframe" href="http://www.youtube.com/watch?v=N6sb6RCgKS8&autoplay=1">
         <img id="clip" src="img/clip.png"></img></a>
-      <img id="mp3" src="img/mp3.png"></img>
+      <a id="play_mp3" href="#">
+        <img id="mp3" src="img/mp3.png"></img></a>
     </div>
     <footer>
       <img id="buy" src="img/buy.png"></img>
       <img id="paypal" src="img/paypal.png"></img>
+      <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+      <div id="jp_container_1" class="jp-audio">
+        <div class="jp-type-single">
+          <div class="jp-gui jp-interface">
+            <ul class="jp-controls">
+              <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+              <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+              <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+              <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+              <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+              <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+            </ul>
+            <div class="jp-progress">
+              <div class="jp-seek-bar">
+                <div class="jp-play-bar"></div>
+              </div>
+            </div>
+            <div class="jp-volume-bar">
+              <div class="jp-volume-bar-value"></div>
+            </div>
+            <div class="jp-time-holder">
+              <div class="jp-current-time"></div>
+              <div class="jp-duration"></div>
+              <ul class="jp-toggles">
+                <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+                <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="jp-title">
+            <ul>
+              <li>Mad river - Guaranteed</li>
+            </ul>
+          </div>
+          <div class="jp-no-solution">
+            <span>Update Required</span>
+            To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+          </div>
+        </div>
+      </div>
     </footer>
   </div> <!--! end of #container -->
 
@@ -69,6 +111,7 @@
 
   <script src="js/libs/jquery.easing-1.3.pack.js"></script>
   <script src="js/libs/jquery.fancybox-1.3.4.pack.js"></script>
+  <script src="js/libs/jQuery.jPlayer.2.1.0/jquery.jplayer.min.js"></script>
   <script src="js/mylibs/madriver.js"></script>
 
   <!-- scripts concatenated and minified via ant build script-->
@@ -76,8 +119,8 @@
   <script defer src="js/script.js"></script>
   <!-- end scripts-->
 
-	
-  <!-- Change UA-XXXXX-X to be your site's ID -->
+
+  <!-- Google Analytics -->
   <script>
     window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
@@ -92,6 +135,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
   <![endif]-->
-  
+
 </body>
 </html>

@@ -72,3 +72,7 @@ footer {
   width: 141px;
 }
 
+#jp_container_1 {
+  position :relative;
+  left: 155px;
+}
