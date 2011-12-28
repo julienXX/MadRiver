@@ -1,18 +1,4 @@
-header {
-  position: relative;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer {
-  position: relative;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#main {
+#container {
   position: relative;
   width: 960px;
   margin-left: auto;
